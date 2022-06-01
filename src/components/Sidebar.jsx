@@ -21,6 +21,7 @@ import {
   FiStar,
   FiSettings,
   FiMenu,
+  FiKey,
 } from 'react-icons/fi';
 import { IconType } from 'react-icons';
 import { ReactText } from 'react';
@@ -35,6 +36,7 @@ const LinkItems: Array<LinkItemProps> = [
   { name: 'Explore', icon: FiCompass },
   { name: 'Favourites', icon: FiStar },
   { name: 'Settings', icon: FiSettings },
+  {name: 'About', icon: FiKey },
 ];
 
 export default function SimpleSidebar({ children }: { children: ReactNode }) {
